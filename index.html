@@ -934,7 +934,7 @@ document.getElementById('contactForm').addEventListener('submit',async e=>{
   if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)){ toast('That email looks off — double-check it?'); return; }
   const btn=document.getElementById('sendBtn'); btn.textContent="Sending… ⏳"; btn.disabled=true;
   try{
-    const res=await fetch('https://formsubmit.co/ajax/abdielganteng1@gmail.com',{
+    const res=await fetch('https://formsubmit.co/ajax/25117b3d733b3864f7a34d80e19bfc3b',{
       method:'POST',
       headers:{'Content-Type':'application/json','Accept':'application/json'},
       body:JSON.stringify({
